@@ -8,16 +8,16 @@ from torch import nn
 from torch.nn import functional as F
 import tqdm
 import pprint
-from src import utils as ut
+from DeepFish import utils as ut
 import torchvision
 from haven import haven_utils as hu
 from haven import haven_chk as hc
 
-from src import datasets, models
+from DeepFish import datasets, models
 from torch.utils.data import DataLoader
 import exp_configs
 from torch.utils.data.sampler import RandomSampler
-from src import wrappers
+from DeepFish import wrappers
 from haven import haven_wizard as hw
 
 

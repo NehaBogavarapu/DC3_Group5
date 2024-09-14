@@ -17,7 +17,7 @@ import torch
 # # from models.counts2points import helpers
 # from torchvision.transforms import functional as FT
 # from torch.autograd import Function
-from models import resfcn
+from . import resfcn
 
 class ResNet(torch.nn.Module):
     def __init__(self, n_classes=1):
